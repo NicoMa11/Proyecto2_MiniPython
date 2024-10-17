@@ -1,0 +1,12 @@
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+# Definición de una función para imprimir el resultado
+def main():
+    print(factorial(5))
+
+# Llamada a la función principal
+main()

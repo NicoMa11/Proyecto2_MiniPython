@@ -1,0 +1,16 @@
+def factorial(n):
+    """ 
+    Calcula el factorial de un número
+    usando recursión.
+    """
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
+def bucle(n):
+    while n > 0:
+        print(n)
+        n = n - 1
+
+# Llamada a la función
+print(factorial(5))

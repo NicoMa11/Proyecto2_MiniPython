@@ -1,0 +1,6 @@
+@CompiladorMini_Python_HostAddress = http://localhost:5052
+
+GET {{CompiladorMini_Python_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
